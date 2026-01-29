@@ -1,0 +1,54 @@
+# ----------------------------
+# PHP & Composer
+# ----------------------------
+vendor/
+composer.lock
+
+# Ignore local environment/config files
+.env
+.env.local
+.env.*.local
+
+# Ignore db credentials backup (optional)
+db-config.php
+database.sql
+
+# ----------------------------
+# Node / Tailwind / Build
+# ----------------------------
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Tailwind Cache
+*.cache
+.pnp
+.pnp.js
+
+# Next.js build
+.next/
+out/
+
+# Vite / Bundler caches
+dist/
+build/
+.vite/
+vite.config.js.timestamp*
+
+# ----------------------------
+# System Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.zip
+*.tar.gz
+*.mp4
+*.webm
